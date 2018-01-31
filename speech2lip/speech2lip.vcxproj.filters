@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMFCC\esig_asc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMFCC\esig_edr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMFCC\esig_nat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMFCC\esignal.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMFCC\HAdapt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMFCC\HAudio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMFCC\HDict.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMFCC\HFB.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMFCC\HLabel.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMFCC\HMap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMFCC\HMath.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMFCC\HMem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMFCC\HMFCC.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMFCC\HNet.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMFCC\HParm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMFCC\HRec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMFCC\HShell.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMFCC\HSigP.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMFCC\HTrain.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMFCC\HUtil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMFCC\HVQ.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMFCC\HWave.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HMFCC\HModel.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HTKread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamRead.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerRead.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="speech2lip.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HMFCC\esignal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMFCC\HAdapt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMFCC\HAudio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMFCC\HDict.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMFCC\HFB.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMFCC\HLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMFCC\HMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMFCC\HMath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMFCC\HMem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMFCC\HMFCC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMFCC\HNet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMFCC\HParm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMFCC\HRec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMFCC\HShell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMFCC\HSigP.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMFCC\HTrain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMFCC\HUtil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMFCC\HVQ.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMFCC\HWave.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HMFCC\HModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HTKread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamRead.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerRead.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="speech2lip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

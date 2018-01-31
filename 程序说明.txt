@@ -1,0 +1,6 @@
+c语言编写
+调用接口为s2l（char *wav_name,char *mfc_name,char *lip_name）
+wav_name:16khz,16bit,单通道wav音频格式。
+mfc_name:接口程序所用的mfcc保存文件。
+lip_name:每一帧对应的口型。每一帧的时长0.025ms，分帧时重叠时长为0.01ms。比如程序中的运行例子中，temp.wav时长为9s左右，则可分为305帧。这样输出的txt文件中就有305行，每一行只有一个数字，即该帧所对应的口型类别。
+接口调用例子s2l("..\\temp.wav","..\\temp.mfc","..\\lip.txt");具体的请参考程序中的test.c文件。

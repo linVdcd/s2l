@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9A54D278-7B3B-4B69-8853-69832290449F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>speech2lip</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="HMFCC\esignal.c" />
+    <ClCompile Include="HMFCC\esig_asc.c" />
+    <ClCompile Include="HMFCC\esig_edr.c" />
+    <ClCompile Include="HMFCC\esig_nat.c" />
+    <ClCompile Include="HMFCC\HAdapt.c" />
+    <ClCompile Include="HMFCC\HAudio.c" />
+    <ClCompile Include="HMFCC\HDict.c" />
+    <ClCompile Include="HMFCC\HFB.c" />
+    <ClCompile Include="HMFCC\HLabel.c" />
+    <ClCompile Include="HMFCC\HMap.c" />
+    <ClCompile Include="HMFCC\HMath.c" />
+    <ClCompile Include="HMFCC\HMem.c" />
+    <ClCompile Include="HMFCC\HMFCC.c" />
+    <ClCompile Include="HMFCC\HModel.c" />
+    <ClCompile Include="HMFCC\HNet.c" />
+    <ClCompile Include="HMFCC\HParm.c" />
+    <ClCompile Include="HMFCC\HRec.c" />
+    <ClCompile Include="HMFCC\HShell.c" />
+    <ClCompile Include="HMFCC\HSigP.c" />
+    <ClCompile Include="HMFCC\HTrain.c" />
+    <ClCompile Include="HMFCC\HUtil.c" />
+    <ClCompile Include="HMFCC\HVQ.c" />
+    <ClCompile Include="HMFCC\HWave.c" />
+    <ClCompile Include="HTKread.c" />
+    <ClCompile Include="LayerRead.c" />
+    <ClCompile Include="ParamRead.c" />
+    <ClCompile Include="speech2lip.c" />
+    <ClCompile Include="test.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HMFCC\esignal.h" />
+    <ClInclude Include="HMFCC\HAdapt.h" />
+    <ClInclude Include="HMFCC\HAudio.h" />
+    <ClInclude Include="HMFCC\HDict.h" />
+    <ClInclude Include="HMFCC\HFB.h" />
+    <ClInclude Include="HMFCC\HLabel.h" />
+    <ClInclude Include="HMFCC\HMap.h" />
+    <ClInclude Include="HMFCC\HMath.h" />
+    <ClInclude Include="HMFCC\HMem.h" />
+    <ClInclude Include="HMFCC\HMFCC.h" />
+    <ClInclude Include="HMFCC\HModel.h" />
+    <ClInclude Include="HMFCC\HNet.h" />
+    <ClInclude Include="HMFCC\HParm.h" />
+    <ClInclude Include="HMFCC\HRec.h" />
+    <ClInclude Include="HMFCC\HShell.h" />
+    <ClInclude Include="HMFCC\HSigP.h" />
+    <ClInclude Include="HMFCC\HTrain.h" />
+    <ClInclude Include="HMFCC\HUtil.h" />
+    <ClInclude Include="HMFCC\HVQ.h" />
+    <ClInclude Include="HMFCC\HWave.h" />
+    <ClInclude Include="HTKread.h" />
+    <ClInclude Include="LayerRead.h" />
+    <ClInclude Include="ParamRead.h" />
+    <ClInclude Include="Platform.h" />
+    <ClInclude Include="speech2lip.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
